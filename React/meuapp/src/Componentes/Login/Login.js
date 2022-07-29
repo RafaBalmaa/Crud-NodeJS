@@ -6,6 +6,7 @@ import { Loginstyle } from './loginStyle';
 export default function Login() {
    return (
    <Loginstyle>
+      <form>
       <div className='divDeus'>
          <div className='divTitulo'>
             <h2>Faça Seu Login</h2>
@@ -24,11 +25,15 @@ export default function Login() {
                   <input type="text" id="senha" className='input' name="senha" placeholder="Informe sua Senha" autocomplete="off" />
                </div>
                <div className='divbotao'>
-                  <button type='button' className='btn-cadastro'><Link to={{ pathname: "/Acesso"}}>Cadastrar</Link></button>
+                  <button type='button' className='btn-cadastro'>Entrar</button>
+               </div>
+               <div className='semCadastro'>
+               <Link to={{ pathname: "/Cadastro"}}>Crie seu Cadastro</Link>
                </div>
             </div>
          </div>
       </div>
+   </form>
    </Loginstyle>
    )
 }

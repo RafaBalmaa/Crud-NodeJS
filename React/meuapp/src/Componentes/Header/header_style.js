@@ -1,30 +1,30 @@
 import styled from 'styled-components';
 
-export const Header = styled.div`
+export const Headerstyle = styled.div`
+
+
    .headerstyle{
-      background-color: #000;
+      background: #000;
       width: 100%;
+      height: 7rem;
       position: fixed;
-      height: 5rem;
-   }
-   .logo{
-      width: 10rem;
-      margin-top: -2px;
-      margin-left: 3rem;
-   }
-   
-   .login{
-      color: #fff;
-      margin-top: 12px;
-      margin-right: 13rem;
-      font-weight: bold;
-      font-size: 20px;
    }
 
-   .kabum{
+   .headerPai{
       display: flex;
-      justify-content: space-between;
-      margin: -2px;
+      justify-content: space-around;
+      align-items: center;
    }
 
+   .imgKMB{
+      width: 11rem;
+      margin-top: 23px;
+      margin-left: -31px;
+   }
+
+   .labeluser{
+      font-size: 27px;
+      font-family: system-ui;
+      margin-top: 26px;
+   }
 `;

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from './Componentes/Login/Login';
 import Cadastro from './Componentes/Cadastro/Cadastro';
 import Acesso from './Componentes/Acesso/Acesso';
+import Error from './Componentes/Error/Error';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
@@ -14,6 +16,7 @@ root.render(
         <Route path="/" element={<Login />} />
         <Route path="/Cadastro" element={<Cadastro />} />
         <Route path="/Acesso" element={<Acesso />} />
+        <Route path="/Error" element={<Error />} />
       </Routes>
     </Router>
   </div>

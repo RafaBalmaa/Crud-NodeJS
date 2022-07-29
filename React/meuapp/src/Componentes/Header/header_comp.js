@@ -1,21 +1,17 @@
 import React from 'react'
-import { Header } from './header_style'
+import { Headerstyle } from './header_style'
 
 export default function Headers() {
    return (
-      <div>
-         <Header>
+         <Headerstyle>
             <header className='headerstyle'>
-               <div className='kabum'>
-                  <div>
-                     <img className='logo' src='https://upload.wikimedia.org/wikipedia/commons/7/71/KaBuM%21_Logo2015.png' alt='Logo KaBuM!'></img>
-                  </div>
-                  <div className='login'>
-                     <p class='usuarioLogin'> Ola, Usuario</p>
+               <div className='headerPai'>
+                  <img className='imgKMB'src='https://logodownload.org/wp-content/uploads/2017/11/kabum-logo-2.png' alt='logoKaBuM!'></img>
+                  <div className='labeluser'>
+                     <label>Usuario</label>
                   </div>
                </div>
             </header>
-         </Header>
-      </div>
+         </Headerstyle>
    )
 }

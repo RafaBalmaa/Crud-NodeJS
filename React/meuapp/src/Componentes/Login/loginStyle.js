@@ -86,12 +86,17 @@ export const Loginstyle = styled.div`
 }
 
 .divbotao{
-   margin-top: 7rem;
-   margin-left: 5rem
+   margin-top: 5rem;
+   margin-left: 5rem;
+   margin-bottom: 1rem;
 }
 
 a{
    text-decoration: none;
    color: #fff;
+}
+
+.semCadastro{
+   margin-left: 5rem;
 }
 `
