@@ -8,7 +8,7 @@ export default function Cadastro() {
       <div className='divpai'>
          <div className='divmensagem'>
                <h2>Faça agora seu Cadastro,<br/>para entrar em nosso site</h2>
-            </div>
+         </div>
          <div className='boxx'>
             <div className='Criar'>
                <h1>Crie sua Conta</h1>

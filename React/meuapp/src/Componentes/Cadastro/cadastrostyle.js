@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const Cadastrostyle = styled.div`
+*{
+   margin: 0;
+   padding: 0;
+}   
+
 .divpai{
    margin: 0px;
    padding: 0;

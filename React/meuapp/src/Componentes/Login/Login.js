@@ -1,34 +1,33 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Footer from '../Footer/footer_comp';
 import { Loginstyle } from './loginStyle';
 
 
 export default function Login() {
    return (
    <Loginstyle>
-      <div>
-         <h2 class="titulo">Faça Seu Login</h2>
-         <div class="box">
-            <div class="title">
+      <div className='divDeus'>
+         <div className='divTitulo'>
+            <h2>Faça Seu Login</h2>
+         </div>
+         <div className='box'>
+            <div className='Acessar'>
                <h1>Acessar Sistema</h1>
             </div>
-            <div class="inputbox">
-               <label class="labelinput">Login:</label>
-               <input type="text" id="login" class="input" name="login" placeholder="Informe seu Login" autocomplete="off" />
+            <div className='inputdiv'>
+               <div className='inputbox'>
+                  <label className='labelinput'>Login:</label>
+                  <input type="text" id="login" className='input' name="login" placeholder="Informe seu Login" autocomplete="off" />
+               </div>
+               <div className='inputbox'>
+                  <label className='labelinput'>Senha:</label>
+                  <input type="text" id="senha" className='input' name="senha" placeholder="Informe sua Senha" autocomplete="off" />
+               </div>
+               <div className='divbotao'>
+                  <button type='button' className='btn-cadastro'><Link to={{ pathname: "/Acesso"}}>Cadastrar</Link></button>
+               </div>
             </div>
-            <div class="inputbox">
-               <label class="labelinput">Senha:</label>
-               <input type="text" id="senha" class="input" name="senha" placeholder="Informe sua Senha" autocomplete="off" />
-            </div>
-            <div class="inputbox">
-               <button value="entrar" id="entrar" name="entrar"><Link to={{ pathname: "/Acesso"}}>Acesso</Link></button>
-            </div>
-            <div class="cadastro">
-            <Link to={{ pathname: "/Cadastro"}}>Nao tem Cadastro</Link>
-            </div>
-            </div>
-            <Footer/>
+         </div>
       </div>
    </Loginstyle>
    )
