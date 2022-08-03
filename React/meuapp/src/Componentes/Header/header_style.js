@@ -8,6 +8,7 @@ export const Headerstyle = styled.div`
       width: 100%;
       height: 7rem;
       position: fixed;
+      margin-top: -3rem;
    }
 
    .headerPai{
@@ -26,5 +27,11 @@ export const Headerstyle = styled.div`
       font-size: 27px;
       font-family: system-ui;
       margin-top: 26px;
+   }
+
+   label{
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
    }
 `;
