@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../../Componentes/Header/header_comp';
 import { Acessostyle } from './acessostyle';
 import Nav from '../../Componentes/Nav/nav_comp';
+import Footer from '../../Componentes/Footer/footer_comp'
 
 export default function Acesso() {
    return (
@@ -12,6 +13,7 @@ export default function Acesso() {
          <section id='Home'>
             
          </section>
+         <Footer />
       </Acessostyle>
    )
 }

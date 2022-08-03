@@ -1,10 +1,10 @@
 import React from 'react';
-import Footer from '../src/Componentes/Footer/footer_comp'
+import GlobalStyle from './globalStyles';
 
 export default function App() {
   return (
     <div>
-        <Footer/>
+        <GlobalStyle />
     </div>  
   )
 }

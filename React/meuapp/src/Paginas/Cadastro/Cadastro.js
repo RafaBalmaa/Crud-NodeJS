@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { Cadastrostyle } from './cadastrostyle'
+import Footer from '../../Componentes/Footer/footer_comp'
 
 export default function Cadastro() {
    return (
@@ -40,6 +41,7 @@ export default function Cadastro() {
                </div>
          </div>
       </div>   
+      <Footer />
       </Cadastrostyle>
    )
 }

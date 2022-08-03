@@ -8,7 +8,8 @@ export const Headerstyle = styled.div`
       width: 100%;
       height: 7rem;
       position: fixed;
-      margin-top: -3rem;
+      margin-top: 0rem;
+      margin-left: -10px;
    }
 
    .headerPai{

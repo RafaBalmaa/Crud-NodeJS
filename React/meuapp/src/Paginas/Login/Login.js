@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { Loginstyle } from './loginStyle';
+import Footer from '../../Componentes/Footer/footer_comp';
 
 
 export default function Login() {
@@ -34,6 +35,7 @@ export default function Login() {
          </div>
       </div>
    </form>
+   <Footer />
    </Loginstyle>
    )
 }

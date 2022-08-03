@@ -4,6 +4,7 @@ export const Navstyle = styled.div`
 
    details {
    margin: 40px;
+   position: absolute;
    }
    summary {
    writing-mode: vertical-lr;
